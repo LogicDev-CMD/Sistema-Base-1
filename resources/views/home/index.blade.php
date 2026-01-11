@@ -20,10 +20,10 @@
                 <div class="row">
                     <div class="col-12">
                         <a href="#" class=""><span class="mr-2  icon-envelope-open-o"></span> <span
-                                class="d-none d-md-inline-block">info@yourdomain.com</span></a>
+                                class="d-none d-md-inline-block">guilogtransportes@gmail.com</span></a>
                         <span class="mx-md-2 d-inline-block"></span>
                         <a href="#" class=""><span class="mr-2  icon-phone"></span> <span
-                                class="d-none d-md-inline-block">1+ (234) 5678 9101</span></a>
+                                class="d-none d-md-inline-block">+55 74 9945 5336</span></a>
 
                         <div class="float-right">
 
@@ -43,25 +43,25 @@
             <div class="container">
                 <div class="row align-items-center position-relative">
                     <div class="site-logo">
-                        <a href="index.html" class="text-black"><span class="text-primary">Depot</a>
+                        <a href="index.html" class="text-black"><span class="text-primary">Gui Log</a>
                     </div>
                     <div class="col-12">
                         <nav class="site-navigation text-right ml-auto " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                                <li><a href="#services-section" class="nav-link">Services</a></li>
+                                <li><a href="#services-section" class="nav-link">Serviços</a></li>
 
 
                                 <li>
-                                    <a href="#about-section" class="nav-link">About Us</a>
+                                    <a href="#about-section" class="nav-link">Quem somos</a>
 
                                 </li>
 
-                                <li><a href="#why-us-section" class="nav-link">Why Us</a></li>
+                                {{-- <li><a href="#why-us-section" class="nav-link">Why Us</a></li> --}}
 
-                                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                                <li><a href="#testimonials-section" class="nav-link">Depoimentos</a></li>
+                                {{-- <li><a href="#blog-section" class="nav-link">Blog</a></li> --}}
+                                <li><a href="#contact-section" class="nav-link">Contato</a></li>
                             </ul>
                         </nav>
 
@@ -86,13 +86,12 @@
 
                     <div class="row align-items-center justify-content-center text-center">
                         <div class="col-lg-6">
-                            <h1>Transportations &amp; Logistics</h1>
-                            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorem eius
-                                eligendi esse quod?</p>
+                            <h1>Transportes &amp; Logisticas</h1>
+                            <p class="mb-5">Fazemos mudanças para todo o Brasil!</p>
                             <form action="#">
-                                <div class="form-group d-flex">
-                                    <input type="text" class="form-control" placeholder="Your tracking number">
-                                    <input type="submit" class="btn btn-primary text-white px-4" value="Track Now">
+                                {{-- <div class="form-group d-flex"> --}}
+                                    {{-- <input type="text" class="form-control" placeholder="Your tracking number"> --}}
+                                    {{-- {{-- <input type="submit" class="btn btn-primary text-white px-4" value="Track Now"> --}}
                                 </div>
                             </form>
                         </div>
@@ -108,27 +107,24 @@
                             <a href="#"><img src="{{ asset('assets/img/depot_img_1.jpg') }}" alt="Image"
                                     class="img-fluid"></a>
                             <div class="px-md-3">
-                                <h3><a href="#">Truck Insurance</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae distinctio laudantium
-                                    nulla eos numquam incidunt!</p>
+                                <h3><a href="#">Frota preparada</a></h3>
+                                <p>Motoristas experientes e cuidadosos, garantindo segurança com uma frota sempre nova.</p>
                             </div>
                         </div>
                         <div class="service text-center">
                             <a href="#"><img src="{{ asset('assets/img/depot_img_2.jpg') }}" alt="Image"
                                     class="img-fluid"></a>
                             <div class="px-md-3">
-                                <h3><a href="#">Plane Transportation</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae distinctio laudantium
-                                    nulla eos numquam incidunt!</p>
+                                <h3><a href="#">Seguro das Mercadorias</a></h3>
+                                <p>Todas as cargas transportadas contam com seguro, garantindo proteção contra imprevistos durante todo o trajeto.</p>
                             </div>
                         </div>
                         <div class="service text-center">
                             <a href="#"><img src="{{ asset('assets/img/depot_img_3.jpg') }}" alt="Image"
                                     class="img-fluid"></a>
                             <div class="px-md-3">
-                                <h3><a href="#">Sea &amp; Ear Freight</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae distinctio laudantium
-                                    nulla eos numquam incidunt!</p>
+                                <h3><a href="#">Rapidez na entrega</a></h3>
+                                <p>Nossa logística é pensada para oferecer rapidez na entrega, aliando tecnologia e planejamento de rotas</p>
                             </div>
                         </div>
                     </div>
@@ -142,9 +138,8 @@
                 <div class="row mb-5 justify-content-center">
                     <div class="col-md-7 text-center">
                         <div class="block-heading-1">
-                            <h2>Services</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts.</p>
+                            <h2>Serviços</h2>
+                            <p>Conheça todos os nossos serviçoes oferecidos!</p>
                         </div>
                     </div>
                 </div>
@@ -153,8 +148,8 @@
                         <div class="icon mb-0">
                             <span class="flaticon-ferry"></span>
                         </div>
-                        <h3 class="mb-3">Sea Freight</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        <h3 class="mb-3">Carga Completa</h3>
+                        <p>Indicada para grandes volumes ou quando a mercadoria ocupa todo o veículo, garantindo exclusividade, rapidez e maior controle no transporte.
                         </p>
                     </div>
 
@@ -162,8 +157,8 @@
                         <div class="icon mb-0">
                             <span class="flaticon-airplane"></span>
                         </div>
-                        <h3 class="mb-3">Air Freight</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        <h3 class="mb-3">Carga Fracionada</h3>
+                        <p>Solução econômica para volumes menores, onde a carga é compartilhada, mantendo a eficiência e a segurança até a entrega final.
                         </p>
                     </div>
 
@@ -171,8 +166,8 @@
                         <div class="icon mb-0">
                             <span class="flaticon-box"></span>
                         </div>
-                        <h3 class="mb-3">Package Forwarding</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        <h3 class="mb-3">Logística Personalizada</h3>
+                        <p>Transporte planejado de acordo com a necessidade do cliente, com rotas, prazos e condições específicas para cada tipo de mercadoria.
                         </p>
                     </div>
 
@@ -667,7 +662,7 @@
                 <div class="row">
                     <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="">
                         <div class="block-heading-1">
-                            <h2>Contact Us</h2>
+                            <h2>Contato</h2>
                         </div>
                     </div>
                 </div>
@@ -676,29 +671,29 @@
                         <form action="#" method="post">
                             <div class="form-group row">
                                 <div class="col-md-6 mb-4 mb-lg-0">
-                                    <input type="text" class="form-control" placeholder="First name">
+                                    <input type="text" class="form-control" placeholder="Nome">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="First name">
+                                    <input type="text" class="form-control" placeholder="Sobrenome">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" placeholder="Email address">
+                                    <input type="text" class="form-control" placeholder="E-mail  ">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30"
+                                    <textarea name="" id="" class="form-control" placeholder="Deixe uma mensagem, entraremos em contato em breve!" cols="30"
                                         rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-6 mr-auto">
                                     <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5"
-                                        value="Send Message">
+                                        value="Enviar">
                                 </div>
                             </div>
                         </form>
