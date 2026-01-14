@@ -7,11 +7,7 @@
         <!-- Hero Section -->
         <section id="inicio" class="hero">
             <div class="hero-bg">
-                <!-- <img
-                    src="/placeholder.svg?height=1080&width=1920"
-                    alt="Frota Gui Log Transportes"
-                  /> -->
-                <img src="public/img/banner.jpg" alt="Frota Gui Log Transportes" />
+                <img src="{{ asset('assets/img/banner.jpg') }}" alt="Frota Gui Log Transportes" />
                 <div class="hero-overlay"></div>
                 <div class="hero-overlay-bottom"></div>
             </div>
@@ -62,7 +58,7 @@
                         <!-- Subheadline -->
                         <p class="hero-subtitle">
                             Soluções completas em transporte e logística com
-                            <strong>rastreamento em tempo real</strong>, segurança garantida
+                            <strong>segurança garantida</strong>
                             e entregas pontuais para todo o Brasil. Confie em quem tem
                             <strong>+15 anos de experiência</strong>.
                         </p>
@@ -111,63 +107,6 @@
                                         d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
                                 </svg>
                                 <span>100% Segurado</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Right side - Feature Card (Desktop only) -->
-                    <div class="hero-card-container">
-                        <div class="tracking-card">
-                            <div class="tracking-header">
-                                <h3>Rastreamento em Tempo Real</h3>
-                                <span class="live-badge">Ao Vivo</span>
-                            </div>
-                            <div class="tracking-map">
-                                <!-- <img
-                            src="/placeholder.svg?height=200&width=350"
-                            alt="Sistema de rastreamento"
-                          /> -->
-                                <img src="public/img/visualizacao-3d-mapa-2.jpg" alt="Sistema de rastreamento" />
-                            </div>
-                            <div class="tracking-route">
-                                <div class="route-point">
-                                    <p class="route-label">Origem</p>
-                                    <p class="route-city">São Paulo, SP</p>
-                                </div>
-                                <div class="route-line">
-                                    <div class="route-dot"></div>
-                                </div>
-                                <div class="route-point route-point-right">
-                                    <p class="route-label">Destino</p>
-                                    <p class="route-city">Rio de Janeiro, RJ</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Floating notification -->
-                        <div class="floating-card floating-card-top">
-                            <div class="floating-icon success">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path
-                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="floating-title">Entrega Confirmada!</p>
-                                <p class="floating-subtitle">Há 2 minutos</p>
-                            </div>
-                        </div>
-
-                        <!-- Stats floating card -->
-                        <div class="floating-card floating-card-bottom">
-                            <div class="floating-icon primary">
-                                <span class="floating-percent">98%</span>
-                            </div>
-                            <div>
-                                <p class="floating-title">Taxa de Pontualidade</p>
-                                <p class="floating-subtitle">Entregas no prazo</p>
                             </div>
                         </div>
                     </div>
@@ -508,59 +447,6 @@
                         </a>
                     </div>
 
-                    <!-- Service 5 -->
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                                <circle cx="12" cy="10" r="3" />
-                            </svg>
-                        </div>
-                        <h3 class="service-title">Rastreamento em Tempo Real</h3>
-                        <p class="service-description">
-                            Acompanhe sua carga 24/7 através do nosso portal ou app. Receba
-                            notificações automáticas em cada etapa.
-                        </p>
-                        <ul class="service-features">
-                            <li>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path
-                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-                                </svg>
-                                App exclusivo
-                            </li>
-                            <li>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path
-                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-                                </svg>
-                                Notificações push
-                            </li>
-                            <li>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path
-                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-                                </svg>
-                                Histórico completo
-                            </li>
-                        </ul>
-                        <a href="#" class="service-link">
-                            Saiba mais
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14" />
-                                <path d="m12 5 7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-
                     <!-- Service 6 -->
                     <div class="service-card">
                         <div class="service-icon">
@@ -828,11 +714,7 @@
                     <!-- Visual -->
                     <div class="features-visual">
                         <div class="features-image">
-                            <!-- <img
-                          src="/placeholder.svg?height=600&width=480"
-                          alt="Equipe Gui Log Transportes"
-                        /> -->
-                            <img src="public/img/professional.jpg" alt="Equipe Gui Log Transportes" />
+                            <img src="{{ asset('assets/img/professional.jpg') }}" alt="Equipe Gui Log Transportes" />
                         </div>
 
                         <!-- Floating Cards -->
@@ -881,11 +763,7 @@
                     <!-- Map Visual -->
                     <div class="coverage-map">
                         <div class="coverage-image">
-                            <!-- <img
-                          src="/placeholder.svg?height=500&width=500"
-                          alt="Mapa de cobertura Gui Log"
-                        /> -->
-                            <img src="public/img/mapa-rota.jpeg" alt="Mapa de cobertura Gui Log" />
+                            <img src="{{ asset('assets/img/mapa-rota.jpeg') }}" alt="Mapa de cobertura Gui Log" />
                         </div>
                         <div class="coverage-stat coverage-stat-top">
                             <div class="coverage-stat-value text-primary">5.500+</div>
@@ -1067,11 +945,12 @@
                         <p class="testimonial-text">
                             "A Gui Log transformou nossa logística. Reduzimos em 30% os
                             custos de transporte e melhoramos significativamente o nível de
-                            serviço aos nossos clientes. O rastreamento em tempo real é um
-                            diferencial incrível."
+                            serviço aos nossos clientes. A equipe da Gui Log foi muito profissional e
+                            atenta aos detalhes. Recomendamos fortemente!"
                         </p>
                         <div class="testimonial-author">
-                            <img src="public/img/carlos-eduardo.jpg" alt="Carlos Eduardo" class="author-image" />
+                            <img src="{{ asset('assets/img/carlos-eduardo.jpg') }}" alt="Carlos Eduardo"
+                                class="author-image" />
                             <div class="author-info">
                                 <div class="author-name">Carlos Eduardo</div>
                                 <div class="author-role">Diretor de Operações</div>
@@ -1117,7 +996,8 @@
                             personalizado faz toda a diferença no nosso dia a dia."
                         </p>
                         <div class="testimonial-author">
-                            <img src="public/img/fernanda-lima.png" alt="Fernanda Lima" class="author-image" />
+                            <img src="{{ asset('assets/img/fernanda-lima.png') }}" alt="Fernanda Lima"
+                                class="author-image" />
                             <div class="author-info">
                                 <div class="author-name">Fernanda Lima</div>
                                 <div class="author-role">Gerente de Supply Chain</div>
@@ -1164,7 +1044,8 @@
                             qualidade."
                         </p>
                         <div class="testimonial-author">
-                            <img src="public/img/roberto-santos.jpg" alt="Roberto Santos" class="author-image" />
+                            <img src="{{ asset('assets/img/roberto-santos.jpg') }}" alt="Roberto Santos"
+                                class="author-image" />
                             <div class="author-info">
                                 <div class="author-name">Roberto Santos</div>
                                 <div class="author-role">CEO</div>
@@ -1287,9 +1168,8 @@
                             ajudar você com qualquer dúvida.
                         </p>
                         <a href="#contato" class="btn btn-primary btn-lg">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
                             </svg>
                             Falar com Suporte
@@ -1332,25 +1212,6 @@
                                     brasileiros e mais de 5.500 cidades. Temos bases
                                     operacionais estratégicas em São Paulo, Rio de Janeiro, Belo
                                     Horizonte, Curitiba, Porto Alegre e Recife.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="faq-item">
-                            <button class="faq-question">
-                                <span>Como funciona o rastreamento de carga?</span>
-                                <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path d="m6 9 6 6 6-6" />
-                                </svg>
-                            </button>
-                            <div class="faq-answer">
-                                <p>
-                                    Todas as nossas operações contam com rastreamento em tempo
-                                    real via GPS. Você pode acompanhar sua carga pelo nosso
-                                    portal ou aplicativo, recebendo notificações automáticas em
-                                    cada etapa da entrega.
                                 </p>
                             </div>
                         </div>
@@ -1448,8 +1309,7 @@
                                 </div>
                             </a>
 
-                            <a href="https://wa.me/5511999999999" class="contact-item" target="_blank"
-                                rel="noopener">
+                            <a href="https://wa.me/5511999999999" class="contact-item" target="_blank" rel="noopener">
                                 <div class="contact-item-icon">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -1513,66 +1373,8 @@
 
                         <!-- Map Preview -->
                         <div class="contact-map">
-                            <img src="public/img/google-maps-sao-paulo.jpg" alt="Localização Gui Log" />
+                            <img src="{{ asset('assets/img/google-maps-sao-paulo.jpg') }}" alt="Localização Gui Log" />
                         </div>
-                    </div>
-
-                    <!-- Contact Form -->
-                    <div class="contact-form-wrapper">
-                        <h3 class="form-title">Solicite uma Cotação</h3>
-                        <p class="form-subtitle">
-                            Preencha o formulário abaixo e retornaremos em até 2 horas
-                            úteis.
-                        </p>
-
-                        <form class="contact-form" id="contactForm">
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="name">Seu Nome *</label>
-                                    <input type="text" id="name" name="name" placeholder="João Silva"
-                                        required />
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">E-mail *</label>
-                                    <input type="email" id="email" name="email"
-                                        placeholder="joao@empresa.com.br" required />
-                                </div>
-                            </div>
-
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="phone">Telefone/WhatsApp *</label>
-                                    <input type="tel" id="phone" name="phone"
-                                        placeholder="(11) 99999-9999" required />
-                                </div>
-                                <div class="form-group">
-                                    <label for="company">Empresa</label>
-                                    <input type="text" id="company" name="company"
-                                        placeholder="Nome da Empresa" />
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message">Mensagem *</label>
-                                <textarea id="message" name="message"
-                                    placeholder="Descreva sua necessidade: origem, destino, tipo de carga, volume aproximado..." rows="4"
-                                    required></textarea>
-                            </div>
-
-                            <button type="submit" class="btn btn-primary btn-full btn-lg">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path d="m22 2-7 20-4-9-9-4Z" />
-                                    <path d="M22 2 11 13" />
-                                </svg>
-                                Enviar Solicitação
-                            </button>
-
-                            <p class="form-privacy">
-                                Ao enviar, você concorda com nossa Política de Privacidade.
-                            </p>
-                        </form>
                     </div>
                 </div>
             </div>

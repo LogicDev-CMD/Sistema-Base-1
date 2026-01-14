@@ -62,7 +62,7 @@
                     <li><a href="#servicos">Armazenagem</a></li>
                     <li><a href="#servicos">Entrega Expressa</a></li>
                     <li><a href="#servicos">Logística Integrada</a></li>
-                    <li><a href="#servicos">Rastreamento</a></li>
+                    {{-- <li><a href="#servicos">Rastreamento</a></li> --}}
                 </ul>
             </div>
 
@@ -83,7 +83,7 @@
                 <h4 class="footer-title">Suporte</h4>
                 <ul class="footer-links">
                     <li><a href="#">Central de Ajuda</a></li>
-                    <li><a href="#">Rastrear Entrega</a></li>
+                    {{-- <li><a href="#">Rastrear Entrega</a></li> --}}
                     <li><a href="#contato">Cotação Online</a></li>
                     <li><a href="#">Seja um Parceiro</a></li>
                     <li><a href="#">Trabalhe Conosco</a></li>
